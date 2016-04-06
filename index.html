@@ -10,7 +10,7 @@
 
     <main class="container">
 
-      <form class="user-form" ng-controller="LoginController">
+      <form class="user-form" ng-controller="LoginController" ng-submit="login(user)" novalidate>
         <label>Email</label>
         <input id="email" ng-model="user.email"></input>
         <label>Password</label>
