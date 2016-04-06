@@ -4,8 +4,8 @@ LoginTest.controller('LoginController', ['$scope', '$http', function($scope, $ht
 
   // Create a scope for a user
   $scope.user = {
-    email = '',
-    password = ''
+    email: '',
+    password: ''
   };
 
   $scope.login = function(user){
