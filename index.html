@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.js"></script>
+  </head>
+  <body ng-app="LoginTest">
+
+    <main class="container">
+
+      <form class="user-form" ng-controller="LoginController">
+        <label>Email</label>
+        <input id="email" ng-model="email"></input>
+        <label>Password</label>
+        <input id="password" ng-model="password"></input>
+
+        <button type="submit">SUBMIT</button>
+      </form>
+
+  </main><!--main.container-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
